@@ -332,6 +332,6 @@ nav ul li a.active {
 
 @media (max-width: 768px) {
     .header-text {
-        font-size: 20px; /* Ukuran lebih kecil untuk judul */
+        font-size: 18px; /* Ukuran lebih kecil untuk judul */
     }
 }
