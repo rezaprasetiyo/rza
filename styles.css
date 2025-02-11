@@ -316,10 +316,10 @@ nav ul li a.active {
 }
 
 html, body {
-    overflow-x: hidden; /* Mencegah scroll horizontal */
-    max-width: 100%; /* Pastikan tidak lebih dari layar */
+    overflow-x: hidden;
+    width: 100%;
 }
-img {
-    max-width: 100%; /* Pastikan gambar tidak lebih besar dari container */
-    height: auto;
+.grid {
+    max-width: 100%;
+    overflow: hidden;
 }
