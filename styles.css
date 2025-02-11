@@ -127,7 +127,7 @@ nav ul li a {
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 111px; /* Atur jarak antar menu */
+    gap: 11px; /* Atur jarak antar menu */
     margin-bottom: 20px;
 }
 
