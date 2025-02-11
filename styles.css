@@ -314,3 +314,12 @@ nav ul li a.active {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+html, body {
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+    max-width: 100%; /* Pastikan tidak lebih dari layar */
+}
+img {
+    max-width: 100%; /* Pastikan gambar tidak lebih besar dari container */
+    height: auto;
+}
