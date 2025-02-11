@@ -153,9 +153,6 @@ nav ul li a.active {
     gap: 30px; /* Jarak antar elemen */
     padding-bottom: 30px; /* Jarak di bagian bawah container */
     padding-top: 20px;
-    justify-content: center; /* Posisikan ke tengah */
-    align-items: center;
-    flex-wrap: wrap; /* Agar elemen tidak keluar dari container */
 }
 
 .column {
@@ -313,20 +310,4 @@ nav ul li a.active {
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-}
-
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-}
-.grid {
-    max-width: 100%;
-    overflow: hidden;
-}
-body {
-    position: relative;
-}
-blockquote, ul, ol {
-    max-width: 100%;
-    overflow-wrap: break-word;
 }
