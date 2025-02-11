@@ -323,3 +323,10 @@ html, body {
     max-width: 100%;
     overflow: hidden;
 }
+body {
+    position: relative;
+}
+blockquote, ul, ol {
+    max-width: 100%;
+    overflow-wrap: break-word;
+}
