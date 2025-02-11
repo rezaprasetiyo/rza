@@ -337,3 +337,11 @@ nav ul li a.active {
         font-size: 18px; /* Ukuran lebih kecil untuk judul */
     }
 }
+@media (max-width: 768px) {
+    #attention {
+        margin-top: 20px;
+    }
+    #kontak {
+        margin-top: 20px;
+    }
+}
