@@ -127,7 +127,7 @@ nav ul li a {
 nav ul {
     display: flex;
     justify-content: center;
-    gap: 11px; /* Atur jarak antar menu */
+    gap: 10px; /* Atur jarak antar menu */
     margin-bottom: 20px;
 }
 
@@ -140,11 +140,11 @@ nav ul li a:hover {
 
 /* Border-radius untuk menu aktif */
 nav ul li a.active {
-    background:#d8e1db;
-    color: black;
-    border-radius: 0px;
-    box-shadow: inset 0 4px 6px #0000003f; /* Tambahkan efek bayangan */
-    text-shadow: 2px 2px 4px #0000003f;
+    background:#c6d5ca;
+    color: rgb(0, 0, 0);
+    border-radius: 0px; /* Atas kiri 0, atas kanan 0, bawah kanan 20px, bawah kiri 20px */    
+    box-shadow: inset 0px 10px 6px #0000009f; /* Tambahkan efek bayangan */
+    text-shadow: 2px 2px 4px #0000009f;
 }
 
 .grid {
