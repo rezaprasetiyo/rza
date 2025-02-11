@@ -312,5 +312,21 @@ nav ul li a.active {
     padding-right: 15px;
 }
 
+@media (max-width: 768px) {
+    section {
+        width: 95%; /* Mengurangi margin kiri dan kanan pada layar kecil */
+        padding: 15px; /* Menyesuaikan padding agar tidak terlalu besar */
+    }
+
+    .grid {
+        grid-template-columns: 1fr; /* Mengubah grid menjadi satu kolom di layar kecil */
+    }
+
+    .column, .column1, .column2 {
+        padding: 15px;
+    }
+}
+
+
 <link rel="stylesheet" href="style.css?v=2">
 
