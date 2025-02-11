@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Header & Navigasi */
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://source.unsplash.com/1600x900/?mosque,islam') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #008CBA;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Sections */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #fff;
+    margin: 20px 0;
+}
+
+/* Materi Grid */
+.materi-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.materi-box {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Kajian & Video */
+.kajian-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.video-box, .artikel-box {
+    background: #f8f8f8;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Form */
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 15px;
+    background: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
